@@ -1,0 +1,222 @@
+body {
+    background-color:#6E95CA;
+}
+
+
+
+.header {
+    overflow: hidden;
+    background-color:white;
+    padding: 15px; 
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color:#356BB9;
+    font-family:sans-serif;
+    text-decoration: none;
+    padding: 5px 10px; 
+    font-size: 30px; 
+}
+
+nav .current {
+    background-color:#D3E5E8;
+}
+
+nav a:hover {
+    background-color:rgb(77, 126, 159);
+    color: white;
+}
+
+nav a:active {
+    background-color:orange;
+    color: #fff;
+}
+
+p {
+    font-family:sans-serif;
+}
+
+#style1:hover {
+    color:#F4DFF7;
+}
+
+#style2:hover {
+    color:#6EC5CA;
+    
+}
+
+#style3:hover {
+    color:#EEB659;
+}
+
+#style4:hover {
+    color:#EE7659;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+}
+
+.content-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(90, 87, 87, 0.7);
+    color: white;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    z-index: 1;
+}
+    
+#quick {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 20px; 
+    color: white;
+    font-size: 30px;
+
+}
+
+
+.iframe {
+    border: none;
+}
+
+.notice {
+    color:red;
+}
+
+.custom-1 {
+    color:white;
+    text-align:center;
+    font-family:sans-serif;
+}
+
+.custom-para {
+    list-style:none;
+}
+
+.pc {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 20px; 
+    color: white;
+    font-family:sans-serif;
+}
+
+#table2 {
+    color:white;
+    font-family:sans-serif;
+    text-align: center;
+}    
+
+#center-about {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+}
+
+#greeting {
+    color: white;
+    font-family: sans-serif;
+    background-color: #A7BFC4;
+    padding: 2px;
+    margin: 20px;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#profile_pic {
+    border: 5px solid gray;
+}
+
+#balance_support {
+    color: white;
+    font-family: sans-serif;
+    background-color: #A7BFC4;
+    padding: 2px;
+    margin: 20px;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+}
+
+#transaction {
+    color: white;
+    font-family: sans-serif;
+    background-color: #A7BFC4;
+    padding: 2px;
+    margin: 20px;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+}
+
+#balance {
+    height: 220px;
+}
+
+.demoTXT {
+    color: white;
+}
+
+#dmt {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 20px; 
+    color: white;
+    font-family:sans-serif;
+}
+
+#demoTab {
+    color:white;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+#hide {
+    list-style-type: none;
+}
+
+#demoTab {
+    width:100%;
+}

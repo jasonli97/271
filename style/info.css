@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 100%; 
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    .pc {
+        padding: 10px;
+    }
+
+    .custom-header {
+        font-size: 24px;
+    }
+
+    .custom-para {
+        font-size: 14px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li.custom-para {
+        margin-bottom: 15px;
+    }
+}

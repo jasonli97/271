@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Demo</title>
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <meta name="description" content="Demo Student Dashboard.">
+        <meta name="keywords" content="demo, WelcomeU, student dashboard , digital ID, university, student, education, technology, balance, funds">
+        <meta name="author" content="Jason Li">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/demo.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!--div contains nav buttons and the logo is the homebutton-->
+        <div class="header">
+            <a href="index.html" class="logo"> <img src="images/logo.png" alt="Welcome U Logo with welcome in blue and u in red and a book" width="200" height="45"> </a>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="info.html">Info</a></li>
+                    <li> <a href="contact.html">Contact</a> </li>
+                    <li> <a href="about.html">About Us</a> </li>
+                    <li> <a class = current href="demo.html">Demo</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div id="greeting">
+                <script src="scripts/greet.js"></script>
+                <img src="images/id.png" alt="generic profile picture" id="profile_pic">
+            </div>
+
+            <div id="balance_support">
+                <div id = "balance">
+            
+                </div>
+            
+                <div id = "support">
+                    <button id="addFunds">Add 20 college bucks</button>
+                    <p id="MSG"></p>
+                    <h1 class = "demoTXT">Support <img src = "images/phone_icon.png" alt= "phone icon" width = "50" height = "50"></h1>
+                    <h2 class = "demoTXT">Phone number: 1-800-123-4567</h2>
+                    <h2 class = "demoTXT">e-mail: <a href="mailto:support@welcomeu.com">support@welcomeu.com</a></h2>
+                    <h2 class = demoTXT><a href = "https://example.com/">Click to chat</a></h2>
+                    <div id = "avaliability"> </div>
+                <!--<h3 class = demoTXT>Note: Calls can be made 24/7 while emails and chats are taken weekdays from 8 AM to 5 PM</h3>-->
+                <!--Got rid of the h3 tag to make room for other stuff-->
+                </div>
+            
+            </div>
+        
+            <div id = "transaction">
+                <h1 class = "demoTXT">Transaction <img src = "images/transaction.png" alt = "dollar bill icon with up and down arrows" width = "50" height = "50"> </h1> 
+                <table id = "demoTab">
+                    <tr>
+                        <th>Date</th>
+                        <th>Details</th>
+                        <th>Debit/Credit</th>
+                    </tr>
+                    <tr>
+                        <td class = "date"></td>
+                        <td class = "detail"> </td>
+                        <td class = "activity"> </td>
+                    </tr>
+                    <tr>
+                        <td class = "date"> </td>
+                        <td class = "detail"> </td>
+                        <td class = "activity"> </td>
+                    </tr>
+                    <tr>
+                        <td class = "date"> </td>
+                        <td class = "detail"> </td>
+                        <td class = "activity"> </td>
+                    </tr>
+                    <tr>
+                        <td class = "date"> </td>
+                        <td class = "detail"> </td>
+                        <td class = "activity"> </td>
+                    </tr>
+                </table>
+                
+            </div>
+        </div>
+        <script src="scripts/conditionals.js"></script>
+        <script src="scripts/demo.js"></script>
+        <script src="scripts/style.js"></script>
+    </body>
+</html>

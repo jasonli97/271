@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title> Contact Us </title>
+            <link rel="icon" type="image/png" href="images/favicon.png">
+            <link rel="stylesheet" href="style/style.css">
+            <meta name="description" content="Contact Us if you need help!">
+            <meta name="keywords" content="contact info,contact, WelcomeU,support, chat, call, email ">
+            <meta name="author" content="Jason Li">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="scripts/test.js"></script>
+            <link rel="stylesheet" href="style/contact.css">
+            <script src="scripts/contact.js"></script>
+        </head>
+            <body>
+                <!--div contains nav buttons and the logo is the homebutton-->
+                <div class = "header">
+                <a href="index.html" class = "logo"> <img src = "images/logo.png" alt = "Welcome U Logo with welcome in blue and u in red and a book" width = "200" height = 45> </a>
+                <nav>
+                    <ul>
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="info.html">Info</a></li>
+                        <li> <a class = current href="contact.html">Contact</a> </li>
+                        <li> <a href="about.html">About Us</a> </li>
+                        <li> <a href="demo.html">Demo</a> </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class = "pc">
+                <h1 class = "custom-header">Have a question? Contact Us!  <img src="images/phone_icon.png" alt = "phone icon" width = "30" height = "30"> </h1> 
+            
+                <p class = "custom"> At our company, we value our customers and their feedback. That is why we have a world class customer support team that is always ready to help you with any issues or inquiries you may have. Whether you need technical assistance, product information, or billing clarification, our friendly and professional staff will provide you with the best solutions. We are dedicated to keeping our customers happy and satisfied with our services and products. You can reach us anytime, day or night, over the phone. We are available 24/7 to answer your calls and address your concerns.</p>
+            
+                <table id = "table2">
+                    <tr>
+                        <th>Contact Method</th>
+                        <th>Details</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td>1-800-123-4567</td>
+                        <td>24/7</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><a href="mailto:service@welcomeu.com">service@welcomeu.com</a></td>
+                        <td>8 AM -5 PM</td>
+                    </tr>
+                
+                </table>
+            
+                <h2>Contact Form <img src="images/form.png" alt = "form icon" width = "50" height = "50"> </h2>
+            
+                <form action = "submit.html" method = "GET" id = "form">
+                        <label>First Name </label>
+                        <input type="text" id="fname" name="fname" required>
+                        <br>
+                        <label>Last Name </label>
+                        <input type="text" id="lname" name="lname" required>
+                        <br>
+                        <label> E-mail </label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <label for="phone">Enter a phone number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="401-123-4567" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                         <p class = "notice" id = "emailNotice"></p>
+                         <p class = "notice" id = "phoneNotice"></p>
+                        <p>How would you like to be contacted?</p>
+                        <label>E-mail</label>
+                        <input type="radio" name="contact_method" class="contact_buttons" value="email" required>
+                        <br>
+                        <label>Text</label>
+                        <input type="radio" name="contact_method" class="contact_buttons" value="text" required>
+                        <br>
+                        <label>Phone</label>
+                        <input type="radio" name="contact_method" class="contact_buttons" value="phone" required>
+                        <br>
+                        <p>Please describe in detail what your issue or concern is.</p>
+                        <textarea id = "details" name = "details" cols = "20" required></textarea>
+                        <br>
+                        <br>
+                    <button> Submit </button>
+                </form>
+
+                
+
+                <h3>Why we care about customer satisfaction!</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GH1TXfQSwUQ?si=TVPbzqTJVHzdqsJV" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    
+                </iframe>
+
+                </div>
+            </body>
+    </html>

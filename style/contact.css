@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 100%; 
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    .pc h1 {
+        font-size: 24px;
+    }
+
+    .pc p {
+        font-size: 14px;
+    }
+
+    #table2 {
+        font-size: 14px;
+    }
+
+    #form label,
+    #form input,
+    #form textarea,
+    #form button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #form textarea {
+        height: 100px; 
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
